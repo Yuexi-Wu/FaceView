@@ -12,6 +12,8 @@
 		D706F28420933CAB00180846 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D706F28220933CAB00180846 /* Main.storyboard */; };
 		D706F28620933CAC00180846 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D706F28520933CAC00180846 /* Assets.xcassets */; };
 		D706F28920933CAC00180846 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D706F28720933CAC00180846 /* LaunchScreen.storyboard */; };
+		D706F291209344F000180846 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D706F290209344F000180846 /* FaceView.swift */; };
+		D7397005209B0B6000A1EADD /* FacialExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7397004209B0B6000A1EADD /* FacialExpression.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		D706F28520933CAC00180846 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D706F28820933CAC00180846 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D706F28A20933CAC00180846 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D706F290209344F000180846 /* FaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
+		D7397004209B0B6000A1EADD /* FacialExpression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacialExpression.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				D706F28520933CAC00180846 /* Assets.xcassets */,
 				D706F28720933CAC00180846 /* LaunchScreen.storyboard */,
 				D706F28A20933CAC00180846 /* Info.plist */,
+				D706F290209344F000180846 /* FaceView.swift */,
+				D7397004209B0B6000A1EADD /* FacialExpression.swift */,
 			);
 			path = FaceView;
 			sourceTree = "<group>";
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D706F28120933CAB00180846 /* ViewController.swift in Sources */,
+				D7397005209B0B6000A1EADD /* FacialExpression.swift in Sources */,
 				D706F27F20933CAB00180846 /* AppDelegate.swift in Sources */,
+				D706F291209344F000180846 /* FaceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
